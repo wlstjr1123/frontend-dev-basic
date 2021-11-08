@@ -15,8 +15,8 @@ var MyObejct = function(name, age) {
     this.age = age;
 }
 
-var o1 = new MyObject('둘리', 10);
-var o2 = new MyObject('마이콜', 30);
+var o1 = new MyObject("둘리", 10);
+var o2 = new MyObject("마이콜", 30);
 
 console.log(o1);
 console.log(o2);
