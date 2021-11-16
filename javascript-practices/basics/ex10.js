@@ -35,7 +35,7 @@ for(prop in a5) {
 
 console.log("====Array VS Object======================")
 o5 = {};
-o5.length = 0;
+o5.length = 3;
 o5[0] = 0;
 o5["1"] = 1;
 o5["name"] = "둘리"
@@ -44,12 +44,13 @@ for(prop in o5) {
     console.log(prop);
 }
 
-console.log("===========")
+console.log("===========");
 a5.forEach(function(e, index) {
     console.log(index + ":" + e);
 });
 
-Array.prototype.forEach.call(o5, function(e, index)) {
+console.log("===========");
+Array.prototype.forEach.call(o5, function(e, index) {
     console.log(index + ":" + e);
-}
+});
 

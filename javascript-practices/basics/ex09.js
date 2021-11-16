@@ -24,6 +24,6 @@ var o2 = new MyObject("마이콜", 20);
 o2.info();
 
 // 오버라이딩
-o2.info = function {
+o2.info = function() {
     console.log("비밀!");
 }
